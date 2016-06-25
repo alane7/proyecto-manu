@@ -1,0 +1,255 @@
+html, body {
+  	height: 100%;
+  	margin: 0;
+  	padding: 0;
+  	max-width: 100%; }
+
+body {
+  	background-color: white;
+  	font-family: Arial,'Helvetica';
+  	margin-top: 0em; }
+header{
+	position: absolute;
+}
+header nav ul{
+	margin:0;
+}
+header nav ul li{
+	display: inline-block;	
+	padding: 0 10px;
+}
+.puntito{
+	width: 10px;
+	height: 10px;
+	border: 2px solid black;
+	border-radius: 80%;
+}
+video{
+	width: 100% !important;
+	height: 100%;
+	z-index: 2;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.mensaje  {
+    position: absolute;
+    top: 250px;
+    background-color: rgba(0,0,0, 0.6);
+    padding: 2em;
+    text-align: center;
+    font-family: Helvetica;
+    width: 100%;
+}
+h1 {
+	color: white;
+	font-weight: 600;
+	font-size: 4em;
+	}
+
+	h5 {
+color: white;
+font-size: 1.5em;
+}
+
+.logo{
+	width: 50px;
+	height: 50px;
+	margin-top: 15px;
+}
+
+.modal-dialog {
+  width: 93%;
+  height: auto;
+ 
+}
+.fa {
+	font-size: 1.5em !important;
+	padding: 0.5em;
+}
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+}
+.carousel {
+	width: 70%;
+
+}
+
+.wrapper{
+	position: relative;
+	display: block;
+	overflow: hidden;
+	width: 95%;
+	height: 100%;
+	max-width:1200px;
+	margin: 0 auto;
+}
+
+#logo{
+	width: 150px;
+	position: relative;
+	display: block;
+	float: left;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.main-nav{
+	position: relative;
+	float: right;
+	display: block;
+	z-index: 100;
+	padding-top: 15px;
+}
+
+#inicio{
+	margin-top: -134px;
+	margin-bottom: -5px;
+}
+
+.main-nav a{
+	color: white;
+    font-size: 1.5em;
+}
+
+
+#visit_li{
+	border: 2px solid white;
+}
+
+#conocenos{
+	background-color: #0fa54e;
+}
+
+#conocenos .texto{
+	color: white;
+	margin: 5%;
+	text-align: left;
+}
+#conocenos .texto2{
+	color: white;
+	margin: 120px  5% 0;
+	text-align: left;
+}
+
+#google_canvas{
+	margin: 120px 5% 5% 5%;
+	width: 400px;
+	height: 400px;
+}
+#google_canvas img{
+	width: 400px;
+    height: 400px;
+}
+#extension{
+	color: white;
+	font-size: 20px;
+    margin-bottom: 5%;
+}
+
+ul li{
+	list-style: none;
+	text-align: left;
+	color: ;
+}
+
+.img-circle{
+	margin: 120px 5% 0 0;
+	width: 250px;
+	height: 250px;
+}
+
+.logo {
+	height: 85px;
+	width: auto;
+    position: fixed;
+    z-index: 100;
+}
+
+#navigation{
+	display: inline-block;
+    float: right;
+    position: fixed;
+    padding-left: 700px;
+    z-index: 99999;
+}
+
+#bio{
+	background-color: #d1cbca;
+	padding-bottom: 6em;
+}
+
+#visita {
+background-color: #0fa54e;
+width: 100%
+
+}
+
+h2{
+	color: white;
+	font-size: 3em;
+	text-align: center;
+	padding: 3%;
+	}
+#visita .visit{
+	color: white;
+	font-size: 1.8em;
+	background-color: #3368b7 !important;
+	}
+#btnsnd{
+	font-size: 1em !important;
+	}
+.form-group {
+	padding-left: 0;
+}
+.form {
+	margin-top: 5px;
+	font-size: 1em;
+	background-color: #3368b7 !important;
+
+
+}
+#footer{
+	background-color:#333333;	
+	}
+#footer h6{
+	color: #0fa54e;
+	font-size: 1em;
+	padding-left:1em;
+
+	margin-top: 0; 
+	vertical-align: center;
+	}
+
+
+#bio{
+	background-color: #d1cbca;    
+	margin-top: -1px;
+}
+
+#visita{
+	margin-top: -20px;
+}
+
+#footer p,i{
+	color: white
+}
+
+#footer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+button {
+background-color: green !important;
+}

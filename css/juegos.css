@@ -1,0 +1,52 @@
+body{
+	font-family: Arial, sans-serif;
+}
+
+.bg-animal{
+	background: url("../img/bg/ardilla.jpg") center center;
+	
+}
+
+.white{
+	color: white;
+}
+
+.black{
+	color: black;
+}
+
+.game p{
+	font-size: 1.1em;
+}
+
+.pd-5{
+	padding: 5%;
+}
+.imagen{
+	border: solid 2px black;
+	padding: 1%;
+	width: 100%;
+}
+
+.imagen img{
+	width: 100%;
+	height: 300px;
+}
+
+.puntaje{
+	padding: 1%;
+	color: red;
+	font-size: 25px;
+}
+
+.game span:first-child{
+	font-size: 21px;
+}
+
+#entrada{
+	display: inline-block;
+	margin: 3% 1% 3% 0;
+	width: 240px;
+}
+
+

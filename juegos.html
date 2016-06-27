@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Parque Nacional del Manu</title>
+	<link rel="icon" type="image/png" href="favicon.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="	sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/juegos.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body class="bg-animal">
+	<header>
+		<h1 class="text-center black">¡ADIVINA!</h1>
+	</header>
+	<section class="game">
+		<div class="container">
+			<p style="color:black">Hola, en este juego tu misión será identificar al animal de la imagen e ingresar su nombre en el cuadro, si aciertas, sumarás <span style="color:green">5</span> puntos, de lo contrario se te descontará <span style="color:black">1</span> punto. Tienes hasta 3 intentos para pasar a la siguiente imagen. El promedio de puntos de las personas que jugaron este juego, fue de <span style="font-size:21px">47</span>. ¿Superarás ese promedio?</p>
+			<div class="row pd-5">
+				<div class="col-sm-4">
+					<div class="imagen">
+						<img id="animal" alt="">
+					</div>
+				</div>
+				<div class="col-sm-8">
+					<span >Puntos:</span>
+					<span class="puntaje">5</span>
+					<div class="verificar">
+						<input id="entrada" class="form-control" placeholder="Ingresa el nombre del animal" type="text">
+						<button id="comprobar" class="btn btn-success">¿Acerté?</button>
+						<p id="mensaje"></p>
+					</div>
+					
+				</div>
+			</div>
+		<a href="index.html">Regresar a la Página Principal</a>
+		</div>
+
+	</section>
+	
+	
+</body>
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/data/animales.js"></script>
+	<script src="js/juegos.js"></script>
+</html>

@@ -21,7 +21,7 @@ function adivina(){
 				$("#mensaje").text("No, no es el animal, pero vamos, te quedan "+intento+" intentos.");
 				}
 			else{
-				$("#mensaje").text("Lo siento, ya no tienes más intentos");
+				$("#mensaje").text("Lo siento, ya no tienes más intentos. Era un "+ name);
 				puntos=puntos-1;
 				$(".puntaje").text(puntos);
 				imgAleatoria();
